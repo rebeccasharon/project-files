@@ -1,0 +1,72 @@
+* 
+{
+  box-sizing: border-box;
+}
+h2
+{
+	text-align:center;
+}
+
+.container 
+{
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+width : 50%;
+height : 50%;
+margin: 0 auto;
+}
+.row
+{
+margin: 5px;
+}
+
+.myProgress 
+{
+width: 100%;
+background-color: #ddd;
+overflow-X :  hidden;
+}
+#myBar1 
+{
+width: 35%;
+height: 20%;
+background-color: #4CAF50;
+text-align: left;
+line-height: 15px;
+color: white;
+}
+#myBar2
+{
+width: 26%;
+height: 20%;
+background-color: #4CAF50;
+text-align: left;
+line-height: 15px;
+color: white;
+}
+#myBar3 
+{
+width: 42%;
+height: 20%;
+background-color: #4CAF50;
+text-align: left;
+line-height: 15px;
+color: white;
+}
+
+.button {padding: 2% 5%;}
+
+select
+{
+	padding: 2% 5%;
+}
+
+@media screen and (max-width: 600px) 
+{
+.col-25, .col-75, input[type=submit] 
+	{
+	width: 100%;
+	margin-top: 0;
+	}
+}

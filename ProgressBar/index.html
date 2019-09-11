@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript"  src="JavaScript\ProgressBar.js">
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="CSS\Design.css">
+<h2> Progress Bar Demo</h2>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+			<div id="myProgress1" class="myProgress"> 
+				<div id="myBar1" class="myBar">35%</div>
+				<input type=hidden value=35 id = 'myBar1val'>
+			</div>
+		</div>
+ 
+		<div class="row">
+			<div id="myProgress2" class="myProgress"> 
+				<div id="myBar2" class="myBar">26%</div> 
+				<input type=hidden value=26 id = 'myBar2val'>
+			</div>
+		</div>
+ 
+		<div class="row">
+			<div id="myProgress3" class="myProgress"> 
+				<div id="myBar3" class="myBar">42%</div>
+				<input type=hidden value=42 id = 'myBar3val'>
+			</div>
+		</div>
+		<br>
+		<select name="progressbar" id="prog-bar">
+			<option value='myBar1'>#Progress Bar 1</option>
+			<option value='myBar2'>#Progress Bar 2</option>
+			<option value='myBar3'>#Progress Bar 3</option>
+		</select>
+		
+		<input type="button" value="6" id="button1" class = "button" onclick="button1(this)">
+		<input type="button" value="16" id="button2" class = "button" onclick="button2(this)">
+		<input type="button" value="-49" id="button3" class = "button" onclick="button3(this)">
+		<input type="button" value="-30" id="button4" class = "button" onclick="button4(this)">
+ 
+	</div>
+</body>
+</html>
